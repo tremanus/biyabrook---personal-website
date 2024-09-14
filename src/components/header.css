@@ -76,5 +76,5 @@ header {
   }
 
   div {
-    scroll-margin-top: 100px; /* Adjust based on your header height */
+    scroll-margin-top: 75px; /* Adjust based on your header height */
   }
