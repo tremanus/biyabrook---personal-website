@@ -1,0 +1,41 @@
+.about-section {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+
+.stanford-picture {
+    width: 40%;
+    height: 42%;
+    max-width: 600px;
+    margin-top: 30px;
+    box-shadow: 20px 20px 60px rgb(180, 180, 180, 0.5);
+}
+
+.about-title {
+    max-width: 300px;
+    padding-bottom: 10px;
+    margin-top: -60px;
+}
+
+#about {
+    position: relative;
+}
+
+hr {
+    width: 402px;
+    position: absolute;
+    border: 0.5px solid rgb(85, 76, 76);
+    top: -45px;
+    left: 165px;
+}
+
+.about-text {
+    color: rgb(180, 180, 180);
+    font-weight: 400;
+    font-family: Geneva, sans-serif;
+    max-width: 570px;
+    line-height: 25px;
+    font-size: 16px;
+}
