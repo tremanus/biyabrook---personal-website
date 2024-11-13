@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import About from './about';
 import Experience from './experience';
+import Projects from './projects';
 import './home.css'
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
         </div>
         <About />
         <Experience />
+        <Projects />
         </>
     )
 }
