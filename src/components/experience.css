@@ -1,3 +1,21 @@
 #experience {
     position: relative;
 }
+
+.timeline-item {
+    border: 1px solid white;
+  }
+
+.timeline-title {
+    color: white !important;
+    font-weight: 1000;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.timeline-content {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+  
