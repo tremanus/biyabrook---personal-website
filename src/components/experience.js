@@ -12,9 +12,9 @@ const Experience = () => {
     return (
         <div id='experience'>
             <div className='hero-section'>
-                <h3 className='experience-title' style={{marginBottom: '50px'}}>Experience</h3>
+                <h3 className='experience-title' style={{marginBottom: '80px'}}>Experience</h3>
                 <Timeline position="alternate">
-      <TimelineItem style={{marginBottom: '50px'}}>
+      <TimelineItem style={{marginBottom: '80px'}}>
         <TimelineOppositeContent color='#cfe2e3'>
         <b><i>July 2021 - August 2022</i></b>
         <img className='company-img' alt='calcproject' src='/tcp.png' />
@@ -31,7 +31,7 @@ const Experience = () => {
             </div>
         </TimelineContent>
       </TimelineItem>
-      <TimelineItem style={{marginBottom: '50px'}}>
+      <TimelineItem>
         <TimelineOppositeContent color='#cfe2e3'>
         <b><i>June 2023 - August 2024</i></b>
         <img className='company-img' alt='calcproject' src='/bch.png' />
