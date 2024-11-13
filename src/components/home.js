@@ -22,7 +22,7 @@ const Home = () => {
                 <a href='https://www.linkedin.com/in/biya-brook-800984247/' target='_blank' rel='noreferrer'><LinkedInIcon style={{ color: 'white', fontSize: '52px', position: 'absolute', left: '65px' }} /></a>
                 <a href='https://www.youtube.com/@yaboyb1527' target='_blank' rel='noreferrer'><YouTubeIcon style={{ color: 'white', fontSize: '60px', position: 'absolute', left: '130px', top: '-5px' }} /></a>
                 <a href='https://www.instagram.com/biyabrook' target='_blank' rel='noreferrer'><InstagramIcon style={{ color: 'white', fontSize: '50px', position: 'absolute', left: '205px' }} /></a>
-                <EmailOutlinedIcon style={{ color: 'white', fontSize: '52px', position: 'absolute', left: '270px', top: '-1px' }} />
+                <a href='mailto:bbrook@stanford.edu' target='_blank' rel='noreferrer'><EmailOutlinedIcon style={{ color: 'white', fontSize: '52px', position: 'absolute', left: '270px', top: '-1px' }} /></a>
             </div>
         </div>
         <About />
