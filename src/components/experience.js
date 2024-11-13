@@ -43,8 +43,8 @@ const Experience = () => {
         <TimelineContent color='#cfe2e3'>
         <div className='timeline-item'>
                 <p className='timeline-title'><b>Research Assistant | Boston Children’s Hospital</b></p>
-                <p className='timeline-content'>- Trained and validated a 3D U-Net CNN ML model to segment bones from MRI & CT scans</p>
-                <p className='timeline-content'>- Created 3D knee models of ACL injuries using automatically segmented MRI data</p>
+                <p className='timeline-content'>- Trained and validated a <b className='special'>3D U-Net CNN ML model</b> to segment bones from MRI & CT scans</p>
+                <p className='timeline-content'>- Created <b className='special'>3D knee models</b> of ACL injuries using automatically segmented MRI data</p>
                 <p className='timeline-content'>- Pruned low-quality CT scans for optimized model training using MATLAB  </p>
             </div>
         </TimelineContent>
