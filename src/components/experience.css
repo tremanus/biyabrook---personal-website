@@ -19,3 +19,9 @@
     text-align: left;
 }
   
+.company-img {
+    width: 95%;
+    max-width: 500px;
+    min-width: 100px;
+    height: auto;
+}
