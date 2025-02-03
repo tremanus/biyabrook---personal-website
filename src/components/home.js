@@ -16,6 +16,9 @@ const Home = () => {
         <h4>Hello, I am</h4>
         <h1>Biya Brook</h1>
         <h2>CS & Linguistics @ Stanford</h2>
+        <div className='mobile-image-wrapper'>
+            <img src="icon.jpg" alt="Profile" className="profile-image" />
+        </div>
         <p>I'm a freshman at Stanford interested in language education, web design, and machine learning. I have experience with <b className='special'>Python</b>, <b className='special'>C++</b>, and <b className='special'>Javascript</b>, as well as the <b className='special'>Next.js, React,</b> and <b className='special'>Flask</b> frameworks. I am passionate in leveraging software engineering and machine learning to improve language education and several other fields.</p>
         
         <div className='nav-words'>
