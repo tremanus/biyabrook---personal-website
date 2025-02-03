@@ -7,6 +7,7 @@ const Projects = () => {
         <div id='projects'>
             <h1 className='section-title'>Projects</h1>
             <div className='projects-grid'>
+                <a href="https://scholalatinae.com" rel="noreferrer" target="_blank" className="card-link">
                 <div className='project-card'>
                     <div className='project-image'>
                         <img src='/scl.png' alt='ScholaLatinae Project' />
@@ -19,13 +20,15 @@ const Projects = () => {
                             <span>React</span>
                             <span>Supabase</span>
                         </div>
-                        <p>Developed a Next.js website that helps over 3,000 students learn Latin & Greek for free. Edit video lessons and release them on YouTube; Design social media marketing posts using Photoshop. Programmed an algorithm for recommending practice questions based on past success, over 10k qs answered</p>
+                        <p>Developed a Next.js website that helps over 3,000 students learn Latin & Greek for free. Programmed an algorithm for recommending practice questions based on past success, now with over 10,000 qs answered</p>
                         <a href="https://github.com/tremanus/scholalatinae" rel="noreferrer" target="_blank" className='github-link'>
                             <GitHubIcon /> Get code
                         </a>
                     </div>
                 </div>
+                </a>
 
+                <a href="https://inboxrecap.com" rel="noreferrer" target="_blank" className="card-link">
                 <div className='project-card'>
                     <div className='project-image'>
                         <img src='/inb.png' alt='InboxRecap Project' />
@@ -45,26 +48,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-
-                <div className='project-card'>
-                    <div className='project-image'>
-                        <img src='/rasp.png' alt='RASP Project' />
-                    </div>
-                    <div className='project-content'>
-                        <h2>RASP</h2>
-                        <div className='tech-stack'>
-                            <span>Java</span>
-                            <span>JavaFX</span>
-                            <span>Groovy</span>
-                            <span>Gradle</span>
-                            <span>Batch</span>
-                        </div>
-                        <p>Added a "pull annotations" feature to the QuPath-OMERO database extension for collaborative use cases. Created a Python scripting extension within QuPath, providing an interface to run custom AI/ML pipelines. Developed offline import and export features, allowing users to save annotations as binary mask PNGs.</p>
-                        <a href="https://github.com/yourusername/rasp" className='github-link'>
-                            <GitHubIcon /> Get code
-                        </a>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     );
