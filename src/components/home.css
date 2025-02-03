@@ -78,18 +78,20 @@ body {
     flex-wrap: wrap;
 }
 
-.nav-words span {
+.link {
     cursor: pointer;
     transition: color 0.3s ease;
+    color: #f1f6f7; /* Add this to make links white */
+    text-decoration: none; /* Remove default underline */
 }
 
-.nav-words span:hover {
+.link:hover {
     text-decoration: underline;
 }
 
 .nav-words .separator {
     margin: 0 -30px;
-    user-select: none;  /* Makes the dash not selectable */
+    user-select: none;
 }
 
 .social-icons {

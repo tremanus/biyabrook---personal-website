@@ -19,11 +19,11 @@ const Home = () => {
         <p>I'm a freshman at Stanford interested in language education, web design, and machine learning. I have experience with <b className='special'>Python</b>, <b className='special'>C++</b>, and <b className='special'>Javascript</b>, as well as the <b className='special'>Next.js, React,</b> and <b className='special'>Flask</b> frameworks. I am passionate in leveraging software engineering and machine learning to improve language education and several other fields.</p>
         
         <div className='nav-words'>
-    <span>Experience</span>
+    <a href="#experience" className="link">Experience</a>
     <span className="separator">-</span>
-    <span>Projects</span>
+    <a href="#projects" className="link">Projects</a>
     <span className="separator">-</span>
-    <span>Resume</span>
+    <a href="/resume.pdf" className="link" target="_blank" rel="noopener noreferrer">Resume</a>
 </div>
         <div className='social-icons'>
         <a href='https://github.com/tremanus' target='_blank' rel='noreferrer'><GitHubIcon style={{ color: 'white', fontSize: '48px', position: 'absolute', left: '0px', top: '1px' }} /></a>
