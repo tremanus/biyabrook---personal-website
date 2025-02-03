@@ -9,11 +9,10 @@ const Header = () => {
             </a>
             <nav>
                 <ul>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="/resume.pdf">Resume</a></li>
                 </ul>
-                <button className='resume'>Resume</button>
             </nav>
         </header>
     );

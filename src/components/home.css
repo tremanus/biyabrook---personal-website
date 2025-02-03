@@ -6,29 +6,46 @@ body {
 }
 
 .hero-section {
-    display: block;
-    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1400px;
     margin: auto;
-    margin-top: 100px;
-    height: 100vh;
+    margin-top: 150px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-wrapper {
+    flex: 1;
+    min-width: 300px;
+    max-width: 700px;
+    margin-right: 40px;
+}
+
+.image-wrapper {
+    flex: 0 0 450px;
+    margin-left: auto;
+}
+
+.profile-image {
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 .hero-section h1 {
-    font-size: 64px;
+    font-size: clamp(40px, 5vw, 64px);
     color: #cfe2e3;
-    margin-bottom: -50px;
+    margin-bottom: -40px;
 }
 
 .hero-section h2 {
     color: #91abac;
-    font-size: 64px;
+    font-size: clamp(32px, 4vw, 64px);
     margin-bottom: 40px;
-}
-
-.hero-section h3 {
-    color: #e2edee;
-    font-size: 32px;
-    margin-bottom: -20px;
 }
 
 .hero-section h4 {
@@ -44,7 +61,6 @@ body {
     color: rgb(180, 180, 180);
     font-weight: 400;
     font-family: Geneva, sans-serif;
-    max-width: 700px;
     line-height: 25px;
 }
 
@@ -52,7 +68,72 @@ body {
     color: rgb(47, 158, 73);
 }
 
+.nav-words {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+    color: #f1f6f7;
+    font-size: 18px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.nav-words span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-words span:hover {
+    text-decoration: underline;
+}
+
+.nav-words .separator {
+    margin: 0 -20px;
+    user-select: none;  /* Makes the dash not selectable */
+}
+
 .social-icons {
     margin-top: 50px;
     position: relative;
+    height: 60px;  /* Set a fixed height to contain the absolutely positioned icons */
+    width: 330px;  /* Set a fixed width to match the total width needed for all icons */
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .hero-section {
+        width: 95%;
+    }
+    
+    .content-wrapper {
+        margin-right: 20px;
+    }
+    
+    .image-wrapper {
+        flex: 0 0 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+    }
+    
+    .content-wrapper {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    
+    .image-wrapper {
+        flex: 0 0 auto;
+        margin-left: 0;
+        margin-top: 40px;
+        max-width: 100%;
+    }
+    
+    .profile-image {
+        max-height: 400px;
+        width: 100%;
+        object-fit: contain;
+    }
 }
