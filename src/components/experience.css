@@ -72,22 +72,22 @@ body {
 
 .timeline-content h2 {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 0 8px 0;
     font-weight: 600;
 }
 
 .timeline-content h3 {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 0 20px 0;
     font-weight: normal;
 }
 
 .timeline-details p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.5;
     margin: 8px 0;
 }
 

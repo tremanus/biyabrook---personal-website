@@ -23,6 +23,19 @@ const Experience = () => {
 
                 <div className='timeline-item'>
                     <div className='timeline-icon'>
+                        <img src='/tutor.png' alt="Transform Tutoring" />
+                    </div>
+                    <div className='timeline-content'>
+                        <h2>Math and SAT Tutor</h2>
+                        <h3>Transform Tutoring | November 2024 - Present</h3>
+                        <div className='timeline-details'>
+                            <p>• Provide individualized 1 on 1 tutoring to Bay Area high school students over zoom and in person</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='timeline-item'>
+                    <div className='timeline-icon'>
                         <img src='/tcp.png' alt='The Calculus Project' />
                     </div>
                     <div className='timeline-content'>

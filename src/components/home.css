@@ -88,12 +88,12 @@ body {
 }
 
 .nav-words .separator {
-    margin: 0 -20px;
+    margin: 0 -30px;
     user-select: none;  /* Makes the dash not selectable */
 }
 
 .social-icons {
-    margin-top: 50px;
+    margin-top: 10px;
     position: relative;
     height: 60px;  /* Set a fixed height to contain the absolutely positioned icons */
     width: 330px;  /* Set a fixed width to match the total width needed for all icons */

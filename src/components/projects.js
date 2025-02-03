@@ -9,19 +9,18 @@ const Projects = () => {
             <div className='projects-grid'>
                 <div className='project-card'>
                     <div className='project-image'>
-                        <img src='/docllama.png' alt='DocLlama Project' />
+                        <img src='/scl.png' alt='ScholaLatinae Project' />
                     </div>
                     <div className='project-content'>
                         <h2>ScholaLatinae</h2>
                         <div className='tech-stack'>
                             <span>JavaScript</span>
                             <span>Next.js</span>
-                            <span>NextAuth.js</span>
                             <span>React</span>
                             <span>Supabase</span>
                         </div>
-                        <p>Developed a Next.js website that helps over 2,900 students learn Latin & Greek for free. Edit video lessons and release them on YouTube; Design social media marketing posts using Photoshop. Programmed an algorithm for recommending practice questions based on past success, over 10k qs answered</p>
-                        <a href="https://github.com/yourusername/docllama" className='github-link'>
+                        <p>Developed a Next.js website that helps over 3,000 students learn Latin & Greek for free. Edit video lessons and release them on YouTube; Design social media marketing posts using Photoshop. Programmed an algorithm for recommending practice questions based on past success, over 10k qs answered</p>
+                        <a href="https://github.com/tremanus/scholalatinae" rel="noreferrer" target="_blank" className='github-link'>
                             <GitHubIcon /> Get code
                         </a>
                     </div>
@@ -29,17 +28,19 @@ const Projects = () => {
 
                 <div className='project-card'>
                     <div className='project-image'>
-                        <img src='/2d-gas.png' alt='2D Gas Mechanics Engine' />
+                        <img src='/inb.png' alt='InboxRecap Project' />
                     </div>
                     <div className='project-content'>
-                        <h2>2D Gas-Mechanics Engine</h2>
+                        <h2>InboxRecap</h2>
                         <div className='tech-stack'>
-                            <span>C++</span>
-                            <span>SFML</span>
-                            <span>Makefile</span>
+                            <span>JavaScript</span>
+                            <span>Next.js</span>
+                            <span>React</span>
+                            <span>Gmail API</span>
+                            <span>OpenAI API</span>
                         </div>
-                        <p>Developed a gas mechanics engine with realistic physics and real-time graphical display from scratch. Achieved an average frame processing time of 345 μs simulating 600+ non-identical particles at 60 FPS. Reduced latency accumulation by 50% using a predictive sweep-and-prune collision detection algorithm.</p>
-                        <a href="https://github.com/yourusername/gas-mechanics" className='github-link'>
+                        <p>Run an inbox management software that sends daily summary emails of one’s inbox & helps bulk unsubscribe from mailing lists. Leverage Gmail API to mark emails as read and get email body to summarize using OpenAI API.</p>
+                        <a href="https://github.com/tremanus/inboxrecap" rel="noreferrer" target="_blank" className='github-link'>
                             <GitHubIcon /> Get code
                         </a>
                     </div>

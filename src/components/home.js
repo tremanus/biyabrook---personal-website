@@ -25,7 +25,6 @@ const Home = () => {
     <span className="separator">-</span>
     <span>Resume</span>
 </div>
-
         <div className='social-icons'>
         <a href='https://github.com/tremanus' target='_blank' rel='noreferrer'><GitHubIcon style={{ color: 'white', fontSize: '48px', position: 'absolute', left: '0px', top: '1px' }} /></a>
         <a href='https://www.linkedin.com/in/biya-brook-800984247/' target='_blank' rel='noreferrer'><LinkedInIcon style={{ color: 'white', fontSize: '52px', position: 'absolute', left: '65px' }} /></a>
