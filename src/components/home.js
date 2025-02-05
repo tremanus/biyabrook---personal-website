@@ -19,7 +19,7 @@ const Home = () => {
         <div className='mobile-image-wrapper'>
             <img src="icon.jpg" alt="Profile" className="profile-image" />
         </div>
-        <p>I'm a freshman at Stanford interested in language education, web design, and machine learning. I have experience with <b className='special'>Python</b>, <b className='special'>C++</b>, and <b className='special'>Javascript</b>, as well as the <b className='special'>Next.js, React,</b> and <b className='special'>Flask</b> frameworks. I am passionate in leveraging software engineering and machine learning to improve language education and several other fields.</p>
+        <p>I'm a freshman at Stanford interested in language education, web design, and machine learning. I have experience in <b className='special'>Python</b>, <b className='special'>C++</b>, <b className='special'>JavaScript</b>, and <b className='special'>TypeScript</b>, as well as the <b className='special'>Next.js, React,</b> and <b className='special'>Flask</b> frameworks. I am passionate in leveraging software engineering and machine learning to improve language education and several other fields.</p>
         
         <div className='nav-words'>
     <a href="#experience" className="link">Experience</a>
