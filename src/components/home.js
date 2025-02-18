@@ -25,6 +25,8 @@ const Home = () => {
     <a href="#experience" className="link">Experience</a>
     <span className="separator">-</span>
     <a href="#projects" className="link">Projects</a>
+    <span className="separator">-</span>
+    <a href="/resume.pdf" className="link" target="_blank" rel="noopener noreferrer">Resume</a>
 </div>
         <div className='social-icons'>
         <a href='https://github.com/tremanus' target='_blank' rel='noreferrer'><GitHubIcon style={{ color: 'white', fontSize: '48px', position: 'absolute', left: '0px', top: '1px' }} /></a>
