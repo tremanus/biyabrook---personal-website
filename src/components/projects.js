@@ -64,7 +64,7 @@ const Projects = () => {
                             <span>Helius API</span>
                             <span>Supabase</span>
                         </div>
-                        <p>Built the first gamified crypto trading platform with personalized, autonomous competing AI agents. Developed an algorithm that analyzes real-time coin data and user preferences to inform trading decisions. Engineered a Express server wrapped in docker to execute each agent's trades on the Solana blockchain.</p>
+                        <p>Built a full-stack gamified crypto trading platform. Developed an algorithm that analyzes real-time coin data and user preferences to inform trading decisions. Engineered a Express server wrapped in docker to execute each agent's trades on the Solana blockchain.</p>
                         <a href="https://devpost.com/software/solana-rivals" rel="noreferrer" target="_blank" className='devpost-link'>
                             <img src="/devpost.svg" alt="Devpost" className="devpost-icon" /> Read Devpost
                         </a>
