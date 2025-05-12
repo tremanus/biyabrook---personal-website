@@ -8,42 +8,44 @@ const Experience = () => {
             <div className='timeline'>
                 <div className='timeline-item'>
                     <div className='timeline-icon'>
-                        <img src='/bch.png' alt="Boston Children's Hospital" />
+                        <img src='/ba.jpeg' alt="Burton Algorithms" />
                     </div>
                     <div className='timeline-content'>
-                        <h2>Research Assistant</h2>
-                        <h3>Boston Children's Hospital | June 2023 - August 2024</h3>
+                        <h2>Software Engineer</h2>
+                        <h3>Burton Algorithms | April 2025 - Present</h3>
                         <div className='timeline-details'>
-                            <p>• Trained and validated a <b className='special'>3D U-Net CNN ML model</b> to segment bones from MRI & CT scans</p>
-                            <p>• Created <b className='special'>3D knee models</b> of ACL injuries using automatically segmented MRI data</p>
-                            <p>• Pruned low-quality CT scans for optimized model training using MATLAB</p>
+                            <p>• Lead the development of full stack, AI-first applications from concept to production for startups</p>
+                            <p>• Built <span className='special'>ConcertBuddy</span>, a full-stack social concert discovery app integrating Ticketmaster and RevenueCat; engineered user-matching logic and popularity-based concert ranking from scratch</p>
                         </div>
                     </div>
                 </div>
 
                 <div className='timeline-item'>
                     <div className='timeline-icon'>
-                        <img src='/tutor.png' alt="Transform Tutoring" />
+                        <img src='/hms.png' alt="Harvard Medical School & Boston Children's Hospital" />
                     </div>
                     <div className='timeline-content'>
-                        <h2>Math and SAT Tutor</h2>
-                        <h3>Transform Tutoring | November 2024 - Present</h3>
+                        <h2>Machine Learning Researcher</h2>
+                        <h3>Harvard Medical School &amp; Boston Children's Hospital | June 2023 - August 2024</h3>
                         <div className='timeline-details'>
-                            <p>• Provide individualized 1 on 1 tutoring to Bay Area high school students over zoom and in person</p>
+                            <p>• Trained and validated a <span className='special'>3D U-Net CNN ML model</span> on MRI &amp; CT scans to segment bones</p>
+                            <p>• Created <span className='special'>3D knee models</span> of ACL injuries for mock surgeries using automatically segmented MRI data</p>
+                            <p>• Performed statistical analysis for pre-operational &amp; post-operational clinical notes classification</p>
                         </div>
                     </div>
                 </div>
 
                 <div className='timeline-item'>
                     <div className='timeline-icon'>
-                        <img src='/tcp.png' alt='The Calculus Project' />
+                        <img src='/schola.png' alt="Schola Latinae" />
                     </div>
                     <div className='timeline-content'>
-                        <h2>Peer Tutor</h2>
-                        <h3>The Calculus Project | July 2021 - August 2022</h3>
+                        <h2>Lead Software Engineer &amp; Founder</h2>
+                        <h3>Schola Latinae | April 2023 - Present</h3>
                         <div className='timeline-details'>
-                            <p>• Tutored low-income students in Algebra 1, Algebra 2, Geometry, and Precalculus 25 hours a week</p>
-                            <p>• Led teams of students to two 1st place wins at SuccessLink entrepreneurship hackathons</p>
+                            <p>• Developed an educational platform using Next.js that helps <span className='special'>over 4,000 students</span> learn Latin &amp; Greek</p>
+                            <p>• Programmed a recommendation algorithm for practice questions with over <span className='special'>10k qs answered</span></p>
+                            <p>• Produce video lessons with <span className='special'>3,000+ views</span> on YouTube</p>
                         </div>
                     </div>
                 </div>
